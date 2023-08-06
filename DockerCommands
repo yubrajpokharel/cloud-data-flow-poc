@@ -1,0 +1,2 @@
+docker build -t my-spring-dataflow-app .
+docker run -d -p 9393:9393 -p 7577:7577 --name spring-dataflow-container my-spring-dataflow-app
